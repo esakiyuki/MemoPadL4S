@@ -13,6 +13,7 @@
 		AED189D525091A3D00DD86D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED189D325091A3D00DD86D9 /* Main.storyboard */; };
 		AED189D725091A4100DD86D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED189D625091A4100DD86D9 /* Assets.xcassets */; };
 		AED189DA25091A4100DD86D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED189D825091A4100DD86D9 /* LaunchScreen.storyboard */; };
+		AED189E225091AA900DD86D9 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED189E125091AA900DD86D9 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AED189D625091A4100DD86D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED189D925091A4100DD86D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED189DB25091A4100DD86D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED189E125091AA900DD86D9 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AED189D625091A4100DD86D9 /* Assets.xcassets */,
 				AED189D825091A4100DD86D9 /* LaunchScreen.storyboard */,
 				AED189DB25091A4100DD86D9 /* Info.plist */,
+				AED189E125091AA900DD86D9 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED189E225091AA900DD86D9 /* MemoViewController.swift in Sources */,
 				AED189D225091A3D00DD86D9 /* ViewController.swift in Sources */,
 				AED189CE25091A3D00DD86D9 /* AppDelegate.swift in Sources */,
 				AED189D025091A3D00DD86D9 /* SceneDelegate.swift in Sources */,
